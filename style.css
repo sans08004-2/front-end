@@ -1,0 +1,40 @@
+body{
+    font-family: Arial;
+    text-align:center;
+    background:#222;
+    color:white;
+}
+
+#game{
+    width:800px;
+    height:400px;
+    background:#87CEEB;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+    border:3px solid black;
+}
+
+#player{
+    width:40px;
+    height:40px;
+    background:red;
+    position:absolute;
+    left:50px;
+    top:300px;
+}
+
+.platform{
+    height:20px;
+    background:#654321;
+    position:absolute;
+}
+
+#goal{
+    width:40px;
+    height:60px;
+    background:gold;
+    position:absolute;
+    left:740px;
+    top:290px;
+}
